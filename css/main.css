@@ -1,0 +1,97 @@
+/*header*/
+.header{
+    background-color: #367fa9;
+}
+/*navbar*/
+.icon-bar
+{
+  background-color: white;
+}
+.menubar ul li a{
+  color: white;
+}
+.menubar ul li a:hover{
+   background-color: gray;
+}
+.menu{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: red;
+}
+.dropdown:hover .menu {
+  display: inline-block;
+  width: 204%;
+}
+.column a {
+  width: 480%;
+  color: white !important;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+/*login page*/
+.login{
+  background-color: #f6f5f1;
+  border-radius: 34px;
+}
+/*register page*/
+.register{
+  background-color: #f6f5f1;
+  border-radius: 34px;
+}
+/*ticket page*/
+.ticket{
+  background-color: #f6f5f1;
+  margin-top: 30px;
+  border-radius: 34px;
+}
+.ticket-form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*card*/
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  border-radius: 5px;
+}
+.card:hover{
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-body {
+  padding: 2px;
+  margin-left: 5px;
+}
+.animals, .card-body{
+  text-align: center;
+}
+/*map page*/
+.map{
+  background-color: #f6f5f1;
+  border-radius: 34px;
+}
+.map-text{
+  margin-top: 60px;
+}
+.map img{
+  margin-top: 20px;
+  width: 46rem; 
+  height: 30rem;
+  margin-bottom: 20px;
+}
+/*display information of animal page*/
+.info{
+  background-color: #f6f5f1;
+  border-radius: 34px;
+}
+.record{
+  margin-top: 20px;
+}
+/*footer*/
+.container5{
+  background-color: #f6f5f1;
+}
+.footer{
+  margin-top: 20px;
+}
